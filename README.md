@@ -4,7 +4,9 @@ In this assignment you will implement a $\textbf{max heap}$ in the $\texttt{x86-
 
 ## Installation Instructions
 
-This lab assumes you are using a 64 bit Linux OS on an $\texttt{x86}$ series CPU. Instructions for Mac Users will be shared separately.
+This lab assumes you are using a 64 bit Linux OS on an $\texttt{x86}$ series CPU. 
+
+Mac Users must use Docker.
 
 You will need $\texttt{gcc}$ and NASM for this lab.
 
@@ -18,7 +20,7 @@ To install NASM:
 
 ```
 wget http://archive.ubuntu.com/ubuntu/pool/universe/n/nasm/nasm_2.15.05-1_amd64.deb
-sudo apt install nasm_2.15.05-1_amd64.deb
+sudo dpkg -i nasm_2.15.05-1_amd64.deb
 ```
 
 ## General Instructions
@@ -111,4 +113,4 @@ PS: Do not think of compiling your C code and copying the resulting assembly cod
 
 ## Submission Instructions
 
-You must submit only $\texttt{vector.asm}$ and $\texttt{heap.asm}$ inside the file $\texttt{<roll\_number.tar.gz>}$ or $\texttt{<roll\_number.zip>}$.
+You must submit only $\texttt{vector.asm}$ and $\texttt{heap.asm}$ inside the file $\texttt{<rollnumber.tar.gz>}$ or $\texttt{<rollnumber.zip>}$.
