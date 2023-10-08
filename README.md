@@ -8,12 +8,15 @@ This lab assumes you are using a 64 bit Linux OS on an $\texttt{x86}$ series CPU
 
 Mac Users must use Docker.
 
-You will need $\texttt{gcc}$ and NASM for this lab.
+You will need $\texttt{gcc-13}$ and NASM for this lab.
 
-To install $\texttt{gcc}$:
+To install $\texttt{gcc-13}$:
 
 ```
-sudo apt install build-essential
+sudo apt-get install -y software-properties-common
+sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install -y gcc-13
 ```
 
 To install NASM:
