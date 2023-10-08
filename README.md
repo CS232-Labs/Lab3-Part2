@@ -116,4 +116,4 @@ PS: Do not think of compiling your C code and copying the resulting assembly cod
 
 ## Submission Instructions
 
-You must submit only $\texttt{vector.asm}$ and $\texttt{heap.asm}$ inside the file $\texttt{<rollnumber.tar.gz>}$ or $\texttt{<rollnumber.zip>}$.
+You must submit only $\texttt{vector.asm}$ and $\texttt{heap.asm}$ inside the file ```roll_number.tar.gz``` or ```roll_number.zip```.
