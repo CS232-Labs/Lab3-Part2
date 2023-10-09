@@ -56,6 +56,10 @@ uint64_t pop_max(heap *);
  * This is the heapify function (converts an array into a max heap)
  * It takes as argument a pointer to the heap
  * This function should have time complexity O(n)
+ * FYI: Some of you may know this as the build_heap function
+ * This may not be the same as the heapify you all are used to
+ * So please do take care while reading the definitions
+ * The definitions of the functions in the code are final
  */
 void heapify(vector *);
 
