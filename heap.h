@@ -63,7 +63,7 @@ void heapify(vector *);
 /*
  * This is the heapsort function (sorts an array by converting it into a max heap and repeatedly popping the max element)
  * It takes as argument a pointer to the heap
- * This function should have time complexity O(log n)
+ * This function should have time complexity O(n log n)
  */
 void heapsort(vector *);
 
