@@ -19,7 +19,6 @@ global heapsort
 init_h:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx
@@ -50,7 +49,6 @@ init_h:
 delete_h:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx
@@ -82,7 +80,6 @@ delete_h:
 size_h:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx
@@ -114,7 +111,6 @@ size_h:
 insert_h:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx
@@ -145,7 +141,6 @@ insert_h:
 get_max:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx
@@ -176,7 +171,6 @@ get_max:
 pop_max:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx
@@ -207,7 +201,6 @@ pop_max:
 heapify:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx
@@ -238,7 +231,6 @@ heapify:
 heapsort:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx

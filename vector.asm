@@ -13,7 +13,6 @@ global size_v
 init_v:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx
@@ -44,7 +43,6 @@ init_v:
 delete_v:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx
@@ -75,7 +73,6 @@ delete_v:
 resize_v:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx
@@ -106,7 +103,6 @@ resize_v:
 get_element_v:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx
@@ -137,7 +133,6 @@ get_element_v:
 push_v:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx
@@ -168,7 +163,6 @@ push_v:
 pop_v:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx
@@ -199,7 +193,6 @@ pop_v:
 size_v:
         push rbp
         mov rbp, rsp
-        push rax
         push rbx
         push rcx
         push rdx
